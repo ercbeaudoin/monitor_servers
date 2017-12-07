@@ -1,6 +1,6 @@
 ---
 - name: Monitor server, uptime
-  hosts: localhost
+  hosts: storage
   gather_facts: true
   remote_user: root
   tasks:
