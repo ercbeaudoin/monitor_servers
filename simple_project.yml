@@ -20,3 +20,4 @@
         - uptime.stdout
         - irc_msg
         - msg_color
+        - stable_sat_version
