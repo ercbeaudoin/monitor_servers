@@ -1,6 +1,6 @@
 ---
 - name: Monitor server, uptime
-  hosts: storage
+  hosts: Cloud_servers
   gather_facts: true
   remote_user: root
   tasks:
@@ -18,3 +18,5 @@
       with_items:
         - hostname.stdout
         - uptime.stdout
+        - irc_msg
+        - msg_color
